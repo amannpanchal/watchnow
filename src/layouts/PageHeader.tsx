@@ -1,5 +1,5 @@
 import { ArrowLeft, Bell, Menu, Mic, Search, Upload, User } from "lucide-react"
-import logo from "../assets/Logo.png"
+
 import { Button } from "../components/Button"
 import { useState } from "react"
 import { useSidebarContext } from "../contexts/SidebarContext"
@@ -89,7 +89,8 @@ export function PageHeaderFirstSection({
         <Menu />
       </Button>
       <a href="/">
-        <img src={logo} className="h-6" />
+        <img src=
+"http://res.cloudinary.com/dk2scs5jz/image/upload/v1710490314/o1dzsmmncho4annh3rc1.png" className="h-6" />
       </a>
     </div>
   )
